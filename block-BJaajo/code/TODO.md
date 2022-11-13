@@ -70,6 +70,15 @@ console.log('two');
 console.log('three');
 ```
 
+Answer
+
+```js
+console.log('one');
+setTimeout(()=>{console.log('two');},0);
+console.log('three');
+
+```
+
 7. Convert the synchronous code given below into asynchronous. If you execute this code it will print one, two and three. Change the code in such a way that it should print `one`, `three` and `two`. You are not allowed to move the code up and down.
 
 ```js
