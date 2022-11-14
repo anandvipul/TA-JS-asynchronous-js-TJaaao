@@ -64,3 +64,17 @@ ul {
 ul li{
     display: inline;
 }
+
+.childImage {
+    width: 2em;
+    border-radius: 1em;
+}
+
+followers, following {
+    display: flex;
+    justify-content: space-between;
+}
+
+.roleTitle {
+    font-weight: 800;
+}
