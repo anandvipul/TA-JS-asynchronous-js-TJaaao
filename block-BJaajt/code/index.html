@@ -18,26 +18,43 @@
     <main>
         <input type="text" name="name" id="name" placeholder="Enter username">
 
-        <img src="https://i.pinimg.com/originals/fa/ba/54/faba5498b3167071dc93e22f3ce1e22a.jpg" alt="user-avatar">
+        <img class = "userImage" src="https://i.pinimg.com/originals/fa/ba/54/faba5498b3167071dc93e22f3ce1e22a.jpg" alt="user-avatar">
 
         <h4 class="user-name">Shrek</h4>
-        <h5 class="user-id">@<span>shrekfiona</span></h5>
+        <h5 >@<span class="user-id">shrekfiona</span></h5>
 
-        <div class="followers">
-            Followers:
-            <ul>
+        <!-- <div class="followers">
+            <span>Followers:</span>
+            <ul class="followersList">
                 <li>Fiona</li>
                 <li>Felix</li>
             </ul>
         </div>
 
         <div class="following">
-            Following:
-            <ul>
+            <span>Following:</span>
+            <ul class="followingList">
                 <li>Felix</li>
                 <li>Fiona</li>
             </ul>
-        </div>
+        </div> -->
+
+        <table>
+            <tr class="followers">
+                <td><span class="roleTitle">Followers:</span></td>
+                <td><ul class="followersList">
+                    <li>Fiona</li>
+                    <li>Felix</li>
+                </ul></td>
+            </tr>
+            <tr class="following">
+                <td><span class="roleTitle">Following:</span></td>
+                <td><ul class="followingList">
+                    <li>Fiona</li>
+                    <li>Felix</li>
+                </ul></td>
+            </tr>
+        </table>
         
     </main>
 
