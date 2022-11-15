@@ -117,4 +117,7 @@ let t = new Promise((resolve, reject) => {
 
 ```js
 // Your code
+let t = new Promise((resolve, reject) => {
+    resolve("John");
+}).then(value => new Promise((resolve, reject) => {resolve("Arya")})).then(value => {console.log(value); return new Promise((resolve, reject) => {setTimeout(()=>{resolve("Bran");}, 2000)})}).then(value => console.log(value));
 ```
